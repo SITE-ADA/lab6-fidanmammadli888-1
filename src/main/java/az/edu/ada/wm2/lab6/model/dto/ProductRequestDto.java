@@ -15,6 +15,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder
 public class ProductRequestDto {
+
     private String productName;
     private BigDecimal price;
     private LocalDate expirationDate;
